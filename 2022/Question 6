@@ -1,0 +1,32 @@
+a = input()
+b = input()
+c = input()
+d = input()
+e = input()
+
+if len(a) == 3:
+  one = int(a)
+else:
+  one = 0
+
+if len(b) == 3:
+  two = int(b)
+else:
+  two = 0
+
+if len(c) == 3:
+  three = int(c)
+else:
+  three = 0
+  
+if len(d) == 3:
+  four = int(d)
+else:
+  four = 0
+if len(e) == 3:
+  five = int(e)
+else:
+  five = 0
+
+final = one + two + three + four + five
+print(final)
