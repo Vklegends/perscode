@@ -1,0 +1,15 @@
+age = int(input())
+if age > 20:
+  print('N')
+elif age >= 10 :
+  print('B')
+elif age >= 8:
+  print('A')
+elif age >= 6:
+  parent = str(input())
+  if parent == str('Y'):
+    print('A')
+  if parent == str('N'):
+    print('N')
+else:
+  print('N')
