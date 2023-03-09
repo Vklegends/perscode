@@ -1,0 +1,9 @@
+first = int(input())
+second = int(input())
+
+if first > second:
+  margin = first - second 
+else:
+  margin = second - first
+
+print(margin)
