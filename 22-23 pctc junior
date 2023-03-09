@@ -1,5 +1,0 @@
-first = int(input('what is the number of first class stamps' ))
-second = int(input('whats is the number of second class stamps' ))
-
-cost = first * 95 + second * 68
-print(cost)
